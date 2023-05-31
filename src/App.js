@@ -1,10 +1,10 @@
 import './App.css';
-import Index from './layout/Index';
+import Navbar from './layouts/Navbar';
 
 function App() {
   return (
     <div className="App">
-      <Index/>
+      <Navbar/>
     </div>
   );
 }
