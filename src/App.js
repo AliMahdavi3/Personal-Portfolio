@@ -1,11 +1,16 @@
+import { useState } from 'react';
 import './App.css';
-import Navbar from './layouts/Navbar';
+import { DarkModeContext } from './context/darkMode';
+import Main from './layouts/Main';
 
 function App() {
+  const [darkMode, setDarkMode] = useState(false);
   return (
-    <div className="App">
-      <Navbar/>
-    </div>
+    <DarkModeContext.Provider value={{darkMode, setDarkMode}}>
+      <div className="App">
+        <Main/>
+      </div>
+    </DarkModeContext.Provider>
   );
 }
 
