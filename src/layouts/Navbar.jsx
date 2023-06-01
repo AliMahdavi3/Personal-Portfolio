@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { BsMoonStarsFill, BsGithub } from "react-icons/bs";
-import { FaTelegram, FaTwitter, FaLinkedin } from "react-icons/fa";
+import { FaTelegram, FaTwitter, FaLinkedin, FaEnvelope } from "react-icons/fa";
 import 'animate.css';
 
 const Navbar = () => {
@@ -10,9 +10,9 @@ const Navbar = () => {
     return (
         <main className={darkMode ? "dark" : ""}>
         <main className={`px-10 md:px-20 lg:px-40 bg-blue-100 dark:bg-slate-700`}>
-            <section className='min-h-screen'>
+            <section className='min-h-screen flex justify-center items-center flex-col'>
                 {/* navbar */}
-                <nav className='py-10 mb-12 flex justify-between'>
+                <nav className='py-10 mb-12 flex gap-96'>
                     <h1 className='text-xl font-semibold dark:text-amber-500'>FrontEndByAli</h1>
                     <ul className='flex items-center'>
                         <li>
@@ -35,14 +35,15 @@ const Navbar = () => {
                     </p>
                 </div>
 
-                <div className='text-5xl flex justify-center gap-10 text-slate-700 py-3'>
-                    <BsGithub/>
-                    <FaLinkedin/>
-                    <FaTelegram/>
-                    <FaTwitter/>
+                <div className='text-3xl md:text-5xl flex justify-center gap-5 md:gap-10 text-slate-700 py-3'>
+                    <BsGithub className='hover:text-blue-600 cursor-pointer'/>
+                    <FaLinkedin className='hover:text-blue-800 cursor-pointer'/>
+                    <FaEnvelope className='hover:text-blue-800 cursor-pointer'/>
+                    <FaTelegram className='hover:text-blue-700 cursor-pointer'/>
+                    <FaTwitter className='hover:text-blue-600 cursor-pointer'/>
                 </div>
 
-                <div className='w-64 h-64 md:w-96 duration-300 md:h-96 my-20 mx-auto rounded-full relative bg-gradient-to-b from-teal-500'>
+                <div className='w-64 h-64 md:w-96 duration-300 md:h-96 my-14 rounded-full bg-gradient-to-b from-teal-500'>
                     <img src="./assets/image/logo.png" className='scale-125' alt="logo" />
                 </div>
             </section>
@@ -61,7 +62,7 @@ const Navbar = () => {
                 </div>
 
                 <div className='lg:flex gap-10'>
-                    <div className='text-center content-center shadow-lg p-10 rounded-xl my-10'>
+                    <div className='flex justify-center items-center flex-col text-center content-center shadow-lg p-10 rounded-xl my-10'>
                         <img src="./assets/image/design.png" className='h-36 w-h-36' alt="design-logo" />
                         <h3 className='text-lg pt-8 pb-2 font-semibold'>طراحی زیبا</h3>
                         <p className='py-2'>Lorem ipsum dolor sit amet consectetur, adipisicing elit
@@ -71,7 +72,7 @@ const Navbar = () => {
                         <p className='py-1 text-slate-700'>photoshop</p>
                         <p className='py-1 text-slate-700'>figma</p>
                     </div>
-                    <div className='text-center content-center shadow-lg p-10 rounded-xl my-10'>
+                    <div className='flex justify-center items-center flex-col text-center content-center shadow-lg p-10 rounded-xl my-10'>
                         <img src="./assets/image/consulting.png" className='h-36 w-h-36' alt="design-logo" />
                         <h3 className='text-lg pt-8 pb-2 font-semibold'>طراحی زیبا</h3>
                         <p className='py-2'>Lorem ipsum dolor sit amet consectetur, adipisicing elit
@@ -81,7 +82,7 @@ const Navbar = () => {
                         <p className='py-1 text-slate-700'>photoshop</p>
                         <p className='py-1 text-slate-700'>figma</p>
                     </div>
-                    <div className='text-center content-center shadow-lg p-10 rounded-xl my-10'>
+                    <div className='flex justify-center items-center flex-col text-center content-center shadow-lg p-10 rounded-xl my-10'>
                         <img src="./assets/image/code.png" className='h-36 w-h-36' alt="design-logo" />
                         <h3 className='text-lg pt-8 pb-2 font-semibold'>طراحی زیبا</h3>
                         <p className='py-2'>Lorem ipsum dolor sit amet consectetur, adipisicing elit
@@ -108,22 +109,19 @@ const Navbar = () => {
                 </div>
                 <div className='flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap'>
                     <div className='basis-1/3 flex-1'>
-                        <img src="./assets/image/web1.png" className='object-cover rounded-xl w-full h-full shadow-2xl' alt="" />
+                        <img src="./assets/image/demo (1).png" className='hover:scale-90 cursor-pointer duration-300 object-cover rounded-xl w-full h-full shadow-2xl' alt="" />
                     </div>
                     <div className='basis-1/3 flex-1'>
-                        <img src="./assets/image/web2.png" className='object-cover rounded-xl w-full h-full shadow-2xl' alt="" />
+                        <img src="./assets/image/demo (2).png" className='hover:scale-90 cursor-pointer duration-300 object-cover rounded-xl w-full h-full shadow-2xl' alt="" />
                     </div>
                     <div className='basis-1/3 flex-1'>
-                        <img src="./assets/image/web3.png" className='object-cover rounded-xl w-full h-full shadow-2xl' alt="" />
+                        <img src="./assets/image/demo (3).png" className='hover:scale-90 cursor-pointer duration-300 object-cover rounded-xl w-full h-full shadow-2xl' alt="" />
                     </div>
                     <div className='basis-1/3 flex-1'>
-                        <img src="./assets/image/web4.png" className='object-cover rounded-xl w-full h-full shadow-2xl' alt="" />
+                        <img src="./assets/image/demo (4).png" className='hover:scale-90 cursor-pointer duration-300 object-cover rounded-xl w-full h-full shadow-2xl' alt="" />
                     </div>
                     <div className='basis-1/3 flex-1'>
-                        <img src="./assets/image/web5.png" className='object-cover rounded-xl w-full h-full shadow-2xl' alt="" />
-                    </div>
-                    <div className='basis-1/3 flex-1'>
-                        <img src="./assets/image/web6.png" className='object-cover rounded-xl w-full h-full shadow-2xl' alt="" />
+                        <img src="./assets/image/demo (5).png" className='hover:scale-90 cursor-pointer duration-300 object-cover rounded-xl w-full h-full shadow-2xl' alt="" />
                     </div>
                 </div>
             </section>
