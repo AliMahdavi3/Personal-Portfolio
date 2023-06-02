@@ -1,6 +1,6 @@
 import React from "react";
 import { BsGithub } from "react-icons/bs";
-import { FaTelegram, FaTwitter, FaLinkedin, FaEnvelope } from "react-icons/fa";
+import { FaTelegram, FaTwitter, FaLinkedin } from "react-icons/fa";
 import { Footer } from "flowbite-react";
 
 const FooterMain = () => {
@@ -12,19 +12,16 @@ const FooterMain = () => {
         <div className="w-full sm:flex sm:items-center sm:justify-between">
           <Footer.Copyright by="Flowbite™" href="#" year={2022} />
           <div className="flex items-center">
-            <a href="">
+            <a href="https://github.com/AliMahdavi3">
               <BsGithub className="mx-2 md:mx-5 text-2xl cursor-pointer text-gray-600" />
             </a>
-            <a href="">
-              <FaEnvelope className="mx-2 md:mx-5 text-2xl cursor-pointer text-gray-600" />
-            </a>
-            <a href="">
+            <a href="https://www.linkedin.com/in/ali-mahdavi-346159276/">
               <FaLinkedin className="mx-2 md:mx-5 text-2xl cursor-pointer text-gray-600" />
             </a>
-            <a href="">
+            <a href="https://t.me/vladdracul1377">
               <FaTelegram className="mx-2 md:mx-5 text-2xl cursor-pointer text-gray-600" />
             </a>
-            <a href="">
+            <a href="https://twitter.com/alimahdavi30000">
               <FaTwitter className="mx-2 md:mx-5 text-2xl cursor-pointer text-gray-600" />
             </a>
           </div>

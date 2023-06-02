@@ -13,13 +13,13 @@
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: rgb(115, 247, 192);
+  background: rgb(87, 155, 126);
   border-radius: 10px;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: rgb(115, 247, 192);
+  background: rgb(85, 160, 129);
 }
 /* ============================content========================== */
 
@@ -31,7 +31,6 @@
   font-family: "myfont1";
   src: url(../public/assets/font/Vazirmatn-VariableFont_wght.ttf);
 }
-
 
 .font_one {
   font-family: "myfont";

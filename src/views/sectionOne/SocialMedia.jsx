@@ -1,6 +1,6 @@
 import React from "react";
 import { BsGithub } from "react-icons/bs";
-import { FaTelegram, FaTwitter, FaLinkedin, FaEnvelope, FaWhatsapp } from "react-icons/fa";
+import { FaTelegram, FaTwitter, FaLinkedin } from "react-icons/fa";
 
 const SocialMedia = () => {
   return (
