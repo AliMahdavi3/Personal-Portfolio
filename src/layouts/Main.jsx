@@ -9,6 +9,7 @@ import MyOffere from '../views/sectionTwo/MyOffere';
 import Skils from '../views/sectionTwo/Skils';
 import Portfolio from '../views/sectionThree/Portfolio';
 import FooterMain from '../views/sectionThree/FooterMain';
+import MySkils from '../views/sectionThree/MySkils';
 
 const Main = () => {
     const {darkMode} = useContext(DarkModeContext);
@@ -34,6 +35,8 @@ const Main = () => {
                 </section>
 
                 <section>
+                    {/* MySkils */}
+                    <MySkils/>
                     {/* portfolio */}
                     <Portfolio/>
                     {/* Footer */}
