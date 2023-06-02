@@ -6,7 +6,7 @@ const Portfolio = () => {
   return (
     <>
       <div>
-        <h3 className="text-3xl dark:text-white py-1 underline font-semibold text-gray-600">پروژه های من</h3>
+        <h3 className="text-3xl font_three dark:text-white py-1 font-semibold text-gray-600">پروژه های من</h3>
       </div>
       <div className="flex flex-col gap-10 md:gap-20 py-10 lg:flex-row lg:flex-wrap">
         <div className="basis-1/3 flex-1">

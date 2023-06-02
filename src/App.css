@@ -22,3 +22,25 @@
   background: rgb(115, 247, 192);
 }
 /* ============================content========================== */
+
+@font-face {
+  font-family: "myfont";
+  src: url(../public/assets/font/ElMessiri-Bold.ttf);
+}
+@font-face {
+  font-family: "myfont1";
+  src: url(../public/assets/font/Vazirmatn-VariableFont_wght.ttf);
+}
+
+
+.font_one {
+  font-family: "myfont";
+}
+
+.font_two {
+  font-family: "myfont1";
+}
+
+.font_three {
+  font-family: "myfont1";
+}

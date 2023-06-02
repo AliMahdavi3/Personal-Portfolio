@@ -7,7 +7,7 @@ const Navbar = () => {
   return (
     <nav className="py-10 mb-12 flex md:gap-96 gap-0">
       <h1 className="text-xl font-semibold dark:text-amber-500">
-        FrontEndByAli
+        0901-255-9469
       </h1>
       <ul className="flex items-center">
         <li>

@@ -2,7 +2,7 @@ import React from "react";
 
 const Skils = () => {
   return (
-    <div className="lg:flex gap-10">
+    <div className="lg:flex gap-10 font_two">
       <div className="flex w-full dark:bg-slate-400 justify-center items-center flex-col text-center content-center shadow-xl hover:scale-105 duration-200 bg-sky-100 p-10 rounded-xl my-10">
         <img
           src="./assets/image/design.png"
