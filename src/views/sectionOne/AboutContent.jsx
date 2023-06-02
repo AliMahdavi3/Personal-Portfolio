@@ -13,12 +13,17 @@ const AboutContent = () => {
         طراح و توسعه دهنده فرانت اند
       </h2>
       <p className="text-base font_one md:text-xl dark:text-white max-w-xl mx-auto py-5 leading-8 text-gray-800">
-        <span className="text-sky-700 text-xl md:text-3xl font-semibold">طراحی زیبا </span>
-        <span className="text-green-700 text-xl md:text-3xl font-semibold">قیمت مناسب </span>
-        <span className="text-amber-500 text-xl md:text-3xl font-semibold">کدنویسی تمیز </span>
+        <span className="text-sky-700 text-xl md:text-3xl font-semibold">
+          طراحی زیبا{" "}
+        </span>
+        <span className="text-green-700 text-xl md:text-3xl font-semibold">
+          قیمت مناسب{" "}
+        </span>
+        <span className="text-amber-500 text-xl md:text-3xl font-semibold">
+          کدنویسی تمیز{" "}
+        </span>
         <p className="mt-10 text-xl md:text-2xl font-semibold">
-          سلام, من علی هستم طراح و توسعه دهنده با دو سال سابقه تو حوزه فرانت
-          اند
+          سلام, من علی هستم طراح و توسعه دهنده با دو سال سابقه تو حوزه فرانت اند
         </p>
       </p>
     </div>

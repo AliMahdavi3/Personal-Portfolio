@@ -25,7 +25,8 @@ const Navbar = () => {
         </li>
         <li>
           <a
-            className="bg-gradient-to-r  from-cyan-500 to-teal-600 px-4 pt-1 pb-2 text-white rounded-lg ms-8"
+            className="bg-gradient-to-r from-cyan-500 to-teal-600 
+            px-4 font-semibold pt-1 pb-2 text-white rounded-lg ms-8"
             href="./assets/resume.pdf" download="resume.pdf"
           >
             رزومه
